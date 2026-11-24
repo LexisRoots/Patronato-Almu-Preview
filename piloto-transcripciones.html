@@ -43,9 +43,9 @@ const allIds=()=>state.route?ROUTES[state.route]:DOCS.map(d=>d.id);
 const doc=id=>DOCS.find(d=>d.id===id);
 function textContent(md){
  const t=md.replace(/\r\n/g,"\n");
- const parts=t.split(/\n---+\s*\n/);
- let main=parts.length>1?parts[1]:t;
- main=main.split(/\n##?\s+(?:Notas documentales|Notas de transcripción|Notas editoriales|Evaluación de confianza)\b/i)[0];
+ const start=t.search(/\n---+\s*\n/);
+ let main=start>=0?t.slice(start).replace(/^\n---+\s*\n/,""):t;
+ main=main.split(/\n##?\s+(?:Notas documentales|Notas de transcripción|Notas de transcripcion|Notas editoriales|Evaluación de confianza)\b/i)[0];
  return main.replace(/<\/?u>/g,"").replace(/[*_]/g,"").replace(/^#{1,6}\s+/gm,"").trim();
 }
 function decorate(txt,term){
