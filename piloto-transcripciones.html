@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laboratorio de transcripciones · Archivo Patronato</title>
+<style>
+:root{--navy:#17313d;--ink:#1d3440;--muted:#5a6e77;--teal:#176971;--line:#dce5e1;--bg:#f5f6f3;--paper:#fffdfa}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--bg);font:15px/1.55 system-ui,-apple-system,Segoe UI,Arial,sans-serif}a{color:var(--teal)}button,input{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid #c89832;outline-offset:2px}
+header{background:var(--navy);color:white;padding:18px max(18px,calc((100vw - 1250px)/2))}.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px}.brand{font:25px Georgia,serif}.brand span{display:block;font:700 10px system-ui;letter-spacing:.16em;color:#aed2d3;margin-bottom:6px;text-transform:uppercase}header a{color:white;border:1px solid #829b9f;padding:8px 14px;border-radius:8px;text-decoration:none}
+main{max-width:1290px;margin:auto;padding:27px 22px 75px}.over{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#577a82;font-weight:800}h1{font:normal clamp(31px,4vw,46px)/1.14 Georgia,serif;margin:4px 0 10px}h2{font:normal 26px/1.25 Georgia,serif;margin:6px 0 10px}.intro{color:var(--muted);max-width:820px;margin:0 0 22px}.paths{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:18px}.path{background:white;border:1px solid var(--line);border-radius:13px;padding:15px;text-align:left;min-height:115px}.path b{font:normal 19px Georgia,serif;display:block;margin:6px 0}.path span{font-size:12px;color:var(--muted)}.path:hover,.path.active{border-color:var(--teal);background:#eaf5f2}.searchbox{background:white;border:1px solid var(--line);border-radius:13px;padding:16px;margin-bottom:15px}.searchbox label{display:block;font-weight:700;margin-bottom:8px}.searchline{display:flex;gap:9px}.searchline input{border:1px solid #bfd0cb;border-radius:8px;padding:11px 12px;flex:1;min-width:0}.btn{border:1px solid #a5c8c1;border-radius:8px;background:white;color:var(--teal);padding:9px 13px}.btn:hover{background:#eaf4f0}.tiny{font-size:12px;color:var(--muted);margin-top:7px}.layout{display:grid;grid-template-columns:245px minmax(0,1fr);gap:15px;align-items:start}.card{background:white;border:1px solid var(--line);border-radius:13px;overflow:hidden}.sidebar{position:sticky;top:12px}.sidebar h3{font-size:17px;margin:0;padding:15px 15px 6px}.sidebar .hint{padding:0 15px 10px;color:var(--muted);font-size:11px}.doclist{max-height:640px;overflow:auto;padding:0 7px 8px}.docitem{display:block;width:100%;background:white;border:0;border-bottom:1px solid #edf1ee;padding:12px 9px;text-align:left;border-radius:7px}.docitem strong{display:block;font-size:13px}.docitem small{color:var(--muted)}.docitem:hover,.docitem.active{background:#e8f3ef}.viewerhead{padding:20px 22px 14px;border-bottom:1px solid var(--line)}.badges{display:flex;gap:6px;flex-wrap:wrap}.badge{background:#edf5f1;color:#2a685a;border-radius:20px;padding:4px 9px;font-size:11px}.badge.warn{background:#fdf1dd;color:#8b5b20}.badge.muted{background:#eef2f3;color:#52656d}.twocol{display:grid;grid-template-columns:1fr 1fr}.photo,.transcript{padding:15px;min-width:0}.photo{background:#f8faf8;border-right:1px solid var(--line)}.phead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:7px;margin-bottom:10px}.phead strong{font-size:13px}.phead a{font-size:12px}.frame{display:flex;align-items:center;justify-content:center;overflow:auto;background:#edf0ec;border:1px solid var(--line);border-radius:8px;min-height:360px;max-height:670px}.frame img{max-width:100%;max-height:660px;object-fit:contain;display:block;cursor:zoom-in}.pnav{display:flex;gap:10px;align-items:center;justify-content:center;margin-top:10px}.pnav button{padding:5px 11px}.textview{max-height:670px;overflow:auto;background:var(--paper);border:1px solid var(--line);padding:14px;border-radius:8px}.textview pre{font:14px/1.7 Georgia,serif;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}.parts{display:flex;gap:6px;margin-bottom:9px;flex-wrap:wrap}.parts button{padding:5px 8px;background:white;border:1px solid var(--line);border-radius:7px;font-size:12px}.parts button.active{background:#e2f2ee;border-color:var(--teal)}mark{background:#ffe6a3}.matches{border:1px solid var(--line);border-radius:12px;background:white;padding:14px;margin-bottom:14px;display:none}.matches.visible{display:block}.matches h3{margin:0 0 5px}.match{display:block;border:0;background:white;border-top:1px solid var(--line);width:100%;text-align:left;padding:10px 5px}.match:hover{background:#edf7f3}.match strong{display:block}.match span{font:13px Georgia,serif;color:var(--muted)}.foot{font-size:12px;color:var(--muted);margin-top:19px}
+@media(max-width:1050px){.layout{grid-template-columns:1fr}.sidebar{position:static}.doclist{max-height:225px;display:grid;grid-template-columns:repeat(2,1fr)}.paths{grid-template-columns:1fr}.path{min-height:0}}
+@media(max-width:680px){main{padding:19px 12px 55px}.twocol{grid-template-columns:1fr}.photo{border-right:0;border-bottom:1px solid var(--line)}.frame{min-height:200px;max-height:480px}.frame img{max-height:475px}.textview{max-height:510px}.doclist{grid-template-columns:1fr}.searchline{flex-wrap:wrap}.searchline input{flex-basis:100%}}
+</style>
+</head>
+<body><header><div class="top"><div class="brand"><span>Archivo · Patronato de Protección a la Mujer</span>Laboratorio de transcripciones</div><a href="./">Volver a la biblioteca principal</a></div></header>
+<main>
+<div class="over">Edición piloto · 8 documentos</div><h1>Investigar a partir de los textos originales</h1><p class="intro">Busque palabras en las transcripciones españolas y compare el texto con las fotografías. Los tres itinerarios son propuestas editoriales basadas en documentos concretos, no interpretaciones exhaustivas de todo el archivo.</p>
+<section class="paths" aria-label="Itinerarios temáticos">
+<button class="path" type="button" data-route="moralidad"><span>ITINERARIO 01 · 3 DOCUMENTOS</span><b>Moralidad pública y vigilancia</b><span>Playas y piscinas: instrucciones de 1942 a 1948.</span></button>
+<button class="path" type="button" data-route="celadoras"><span>ITINERARIO 02 · 2 DOCUMENTOS</span><b>Formación de celadoras</b><span>Convocatorias de 1943 y 1944; una fuente es incompleta.</span></button>
+<button class="path" type="button" data-route="instituciones"><span>ITINERARIO 03 · 3 DOCUMENTOS</span><b>Intervención institucional</b><span>Traslados y directrices administrativas, 1946–1956.</span></button>
+</section>
+<section class="searchbox"><label for="search">Buscar en las transcripciones completas disponibles</label><div class="searchline"><input id="search" type="search" placeholder="playas, celadoras, embarazo, prostitución…" autocomplete="off"><button type="button" class="btn" id="clear">Borrar</button><button type="button" class="btn" id="all">Todos los documentos</button></div><div class="tiny" id="loadstatus" aria-live="polite">Cargando archivos…</div></section>
+<section class="matches" id="matches" aria-live="polite"><h3 id="matchtitle"></h3><div id="matchlist"></div></section>
+<div class="layout"><aside class="card sidebar"><h3>Fuentes</h3><div class="hint" id="routecaption">8 documentos</div><div id="doclist" class="doclist"></div></aside>
+<section class="card"><div class="viewerhead"><div class="over" id="docid"></div><h2 id="doctitle"></h2><div class="badges" id="badges"></div><div class="tiny" id="docmeta"></div></div>
+<div class="twocol">
+<div class="photo"><div class="phead"><strong>Fotografía original</strong><a id="photolink" href="#" target="_blank" rel="noopener">Abrir JPG ↗</a></div><div class="frame"><img id="image" alt="Fotografía histórica de la fuente"></div><div class="pnav"><button class="btn" id="prev" type="button" aria-label="Foto anterior">←</button><span id="photocounter"></span><button class="btn" id="next" type="button" aria-label="Foto siguiente">→</button></div><div class="tiny">Las imágenes no están alineadas automáticamente con los párrafos.</div></div>
+<div class="transcript"><div class="phead"><strong>Transcripción española</strong><a id="rawtext" href="#" target="_blank" rel="noopener">Archivo íntegro ↗</a></div><div class="parts" id="parts"></div><div class="textview" id="textview"><pre id="text">Cargando…</pre></div><div class="tiny" id="textnote">Se conservan grafías de época. El archivo íntegro incluye las notas editoriales.</div></div>
+</div></section></div>
+<p class="foot">Piloto de ocho unidades documentales y diez archivos de texto. Sin modelos de IA, cuentas, servidor propio ni seguimiento de las búsquedas. Conserva los archivos originales tal como están publicados en la biblioteca. Master Catalog v8.2.</p>
+</main>
+<script>
+"use strict";
+const DOCS=[{"id":"DGS-1546","label":"Circular 1.546 de Seguridad","period":"c. 1942 · fecha discutida","title":"Copia de la Circular número 1.546 de la Dirección General de Seguridad (sobre vigilancia de moralidad en playas y piscinas y colaboración con el Patronato de Protección a la Mujer)","date":"sin fecha en copia (citada como 15.06.1942 en d574ffd8 y como 18.06.1942 en Circular n.º 16/1945 — DATE_DISCREPANCY_TO_VERIFY)","source":"COMPLETE","transcription":"COMPLETE","qa":"INDEPENDENT_QA_PASS_FULL","images":["assets/jpgs/1Kya2o8sBiEbbMOuyu3KW130YUBSVoLfA.jpg","assets/jpgs/1TOfueHnMA71l_6Ss9B5e5ugjAPihe-mX.jpg"],"texts":["assets/transcriptions/16Iui2b9wf51UtYzvurnJU9luUe-BkmIV.md"]},{"id":"C16-1945","label":"Circular 16 · playas y piscinas","period":"1945","title":"Circular n.º 16 (Patronato de Protección a la Mujer)","date":"1945-06-05","source":"COMPLETE","transcription":"COMPLETE","qa":"INDEPENDENT_QA_PASS_FULL","images":["assets/jpgs/1nxw6p6KbCztqX7NCIZQN8K47xHPYuBKt.jpg"],"texts":["assets/transcriptions/18IV88PajA7XRdSnHtVutq9g42kQF7T5h.md"]},{"id":"C28-1948","label":"Circular 28 · moralidad estival","period":"1948","title":"Circular n.º 28 (Patronato de Protección a la Mujer)","date":"1948-07-08","source":"COMPLETE","transcription":"COMPLETE","qa":"INDEPENDENT_QA_PASS_FULL","images":["assets/jpgs/1RxwT4XjAqn_e48IbeWTVY-Mu9GEoiGJK.jpg"],"texts":["assets/transcriptions/1WYThLjmKffrY7db66yOyZfdkzqGwQra5.md"]},{"id":"GR-PRINT-1943-AUG","label":"Convocatoria de celadoras","period":"1943 · fragmento","title":"Circular del Patronato de Protección a la Mujer (agosto de 1943 — Bases Cuarta a Séptima de convocatoria del curso de Celadoras)","date":"1943-08-07 / 1943-08-16","source":"INCOMPLETE","transcription":"INCOMPLETE","qa":"INDEPENDENT_QA_PASS_FULL (surviving August 1943 page)","images":["assets/jpgs/1o72FZwCLIuMJz-uyo6UDL9Nt1pf6wJtV.jpg"],"texts":["assets/transcriptions/1uvCt4Y4F1EWU67jWqKNFPJcLPAmqrg32.md"]},{"id":"NEW-C08","label":"Circular 8 · curso de celadoras","period":"1944","title":"Circular núm. 8 (Convocatoria del tercer curso de formación de Celadoras, BOE núm. 269, 25.09.1944) — scalona s. 1–2 (z D53)","date":"1944-09-27","source":"COMPLETE","transcription":"COMPLETE","qa":"INDEPENDENT_QA_PASS_FULL","images":["assets/jpgs/16FxchgGTs90CzemgvL5tUX0yucDrAelp.jpg","assets/jpgs/1xfs59kahw1XkxF5vbVGFaYAZsB-2hjrA.jpg"],"texts":["assets/transcriptions/18yMoKNS9g9qM8BvHbpNDl9fnn2GgS1lx.md"]},{"id":"C22-1946","label":"Circular 22 · traslados y embarazo","period":"1946","title":"Circular n.º 22 (Patronato de Protección a la Mujer)","date":"1946-06-17","source":"COMPLETE","transcription":"COMPLETE","qa":"INDEPENDENT_QA_PASS_FULL","images":["assets/jpgs/1E3uf7iaIB6R4RNy5NIcgpHLPuRq6Sw6G.jpg"],"texts":["assets/transcriptions/12IMJX_xQqNBh7-55YBKAacuMdS3uey_P.md"]},{"id":"BOL-1956-01","label":"Boletín 1 · normas de 1956","period":"Mayo 1956","title":"Boletín de Información — Anexo del Patronato de Protección a la Mujer* (Ministerio de Justicia, Órgano Oficial del Departamento, Núm. 337, Año X, Número 1)","date":"Madrid, 5 mayo 1956","source":"COMPLETE","transcription":"COMPLETE","qa":"QA_SPOT_CHECKED (pp.1-5) + INDEPENDENT_QA_PASS_FULL (pp.6-7)","images":["assets/jpgs/1Z4vfEiDW3IrFdU71y2H8du-z71L6SmOs.jpg","assets/jpgs/1mWKc-yThVNuM5TlGiBy-LGc1Qbs8IvO6.jpg","assets/jpgs/1Xlb9ahyLTfVerM7tBnbLbUku9sg2lflM.jpg","assets/jpgs/1aGP3PsRzJfZwSETWv3VGIuMUNmEEHj4_.jpg"],"texts":["assets/transcriptions/1RiuhRyIWE4QCi1cTbJ8ECTyu5Tp9PfP9.md","assets/transcriptions/1t8d8UNG53LhkMD_7Pq6IdW8Lti6BtH8c.md"]},{"id":"BOL-1956-02","label":"Boletín 2 · circulares de 1956","period":"Julio 1956","title":"Boletín de Información — Anexo del Patronato de Protección a la Mujer* (Ministerio de Justicia, Órgano Oficial del Departamento, Núm. 343, Año X, Número 2)","date":"Madrid, 5 julio 1956","source":"COMPLETE","transcription":"COMPLETE","qa":"INDEPENDENT_QA_PASS_FULL","images":["assets/jpgs/1NxLZYnLhQzUBODBh8n_kgOj6QxNFwt9l.jpg","assets/jpgs/1oNn-sAqd6idSaLPUnwp8JZqKxT0FLaz4.jpg","assets/jpgs/1I8GnoniGTT1FZGI5u6uF_kuayjXLC709.jpg","assets/jpgs/1-B3gq5TGIZOgWkzP9oqmzi_e86aLQqa0.jpg"],"texts":["assets/transcriptions/1EiyIGs4J4cz5mWLRNFQXSadaJzBv3FN1.md","assets/transcriptions/1ueK_FtEXswsLS-JF_wrfy89lN273IGNC.md"]}];
+const ROUTES={moralidad:["DGS-1546","C16-1945","C28-1948"],celadoras:["GR-PRINT-1943-AUG","NEW-C08"],instituciones:["C22-1946","BOL-1956-01","BOL-1956-02"]};
+const TITLES={moralidad:"Moralidad pública y vigilancia",celadoras:"Formación de celadoras",instituciones:"Intervención institucional"};
+const state={route:null,id:"DGS-1546",photo:0,part:0,query:"",ready:false};
+const el=id=>document.getElementById(id);
+const norm=x=>String(x||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLocaleLowerCase("es");
+const escapeHtml=x=>String(x==null?"":x).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const allIds=()=>state.route?ROUTES[state.route]:DOCS.map(d=>d.id);
+const doc=id=>DOCS.find(d=>d.id===id);
+function textContent(md){
+ const t=md.replace(/\r\n/g,"\n");
+ const parts=t.split(/\n---+\s*\n/);
+ let main=parts.length>1?parts[1]:t;
+ main=main.split(/\n##?\s+(?:Notas documentales|Notas de transcripción|Notas editoriales|Evaluación de confianza)\b/i)[0];
+ return main.replace(/<\/?u>/g,"").replace(/[*_]/g,"").replace(/^#{1,6}\s+/gm,"").trim();
+}
+function decorate(txt,term){
+ if(!term)return escapeHtml(txt);
+ const t=norm(txt),q=norm(term);let pos=0,s="";
+ while(pos<txt.length){let i=t.indexOf(q,pos);if(i<0){s+=escapeHtml(txt.slice(pos));break;}s+=escapeHtml(txt.slice(pos,i))+"<mark>"+escapeHtml(txt.slice(i,i+q.length))+"</mark>";pos=i+q.length;}
+ return s;
+}
+function count(t,q){if(!q)return 0;let n=0,i=0;while((i=t.indexOf(q,i))>=0){n++;i+=q.length;}return n;}
+function snippet(t,q){const i=norm(t).indexOf(norm(q));return i<0?"":(i>90?"…":"")+t.slice(Math.max(0,i-90),Math.min(t.length,i+125)).replace(/\s+/g," ")+(i+125<t.length?"…":"");}
+function renderDocs(){
+ const ds=DOCS.filter(d=>allIds().includes(d.id));
+ el("doclist").innerHTML=ds.map(d=>'<button class="docitem '+(d.id===state.id?"active":"")+'" type="button" data-id="'+escapeHtml(d.id)+'"><strong>'+escapeHtml(d.label)+'</strong><small>'+escapeHtml(d.period)+(d.source!=="COMPLETE"?" · incompleto":"")+'</small></button>').join("");
+ el("routecaption").textContent=state.route?TITLES[state.route]:"Todos los documentos · 8";
+ document.querySelectorAll("[data-route]").forEach(b=>b.classList.toggle("active",b.dataset.route===state.route));
+ document.querySelectorAll("[data-id]").forEach(b=>b.onclick=()=>selectDoc(b.dataset.id));
+}
+function selectDoc(id){
+ if(!doc(id))return;
+ state.id=id;state.photo=0;state.part=0;
+ if(!allIds().includes(id))state.route=null;
+ renderDocs();renderView();
+ history.replaceState(null,"",location.pathname+"#"+encodeURIComponent(id));
+ if(innerWidth<1050)el("doctitle").scrollIntoView({behavior:"smooth",block:"start"});
+}
+function renderView(){
+ const d=doc(state.id);if(!d)return;
+ el("docid").textContent=d.id+" · "+d.period;
+ el("doctitle").textContent=d.title;
+ el("docmeta").textContent=d.date;
+ el("badges").innerHTML='<span class="badge '+(d.source==="COMPLETE"?"":"warn")+'">Fuente: '+escapeHtml(d.source)+'</span><span class="badge '+(d.transcription==="COMPLETE"?"":"warn")+'">ES: '+escapeHtml(d.transcription)+'</span><span class="badge muted">QA: '+escapeHtml(d.qa)+'</span>';
+ const url=d.images[state.photo];el("image").src=url;el("image").alt="Foto "+(state.photo+1)+" de "+d.id;el("photolink").href=url;
+ el("photocounter").textContent=(state.photo+1)+" / "+d.images.length;
+ el("prev").disabled=state.photo===0;el("next").disabled=state.photo===d.images.length-1;
+ el("parts").innerHTML=d.texts.map((u,i)=>'<button data-part="'+i+'" class="'+(state.part===i?"active":"")+'" type="button">Parte '+(i+1)+'/'+d.texts.length+'</button>').join("");
+ document.querySelectorAll("[data-part]").forEach(b=>b.onclick=()=>{state.part=+b.dataset.part;renderView()});
+ el("rawtext").href=d.texts[state.part];
+ el("text").innerHTML=d.loaded?decorate(d.loaded[state.part],state.query):"Cargando la transcripción…";
+ el("textnote").textContent=d.source==="INCOMPLETE"?"Transcripción completa de las hojas conservadas; faltan otras páginas de la fuente.":"Texto histórico de la fuente. Consulte el archivo íntegro para las notas editoriales y la verificación.";
+ el("textview").scrollTop=0;
+}
+function renderSearch(){
+ const term=el("search").value.trim();state.query=term;
+ if(!term){el("matches").classList.remove("visible");renderView();return;}
+ el("matches").classList.add("visible");
+ if(!state.ready){el("matchtitle").textContent="Cargando transcripciones…";el("matchlist").textContent="";return;}
+ const q=norm(term);
+ const found=DOCS.filter(d=>allIds().includes(d.id)).map(d=>{
+    let n=d.loaded.reduce((a,t)=>a+count(norm(t),q),0);
+    let first=d.loaded.findIndex(t=>norm(t).includes(q));
+    return {d,n,first};
+ }).filter(x=>x.n).sort((a,b)=>b.n-a.n);
+ el("matchtitle").textContent=found.length+" documentos · "+found.reduce((a,x)=>a+x.n,0)+" coincidencias";
+ el("matchlist").innerHTML=found.length?found.map(x=>'<button class="match" type="button" data-match="'+escapeHtml(x.d.id)+'" data-part="'+x.first+'"><strong>'+escapeHtml(x.d.label)+' · '+x.n+' coincidencias</strong><span>'+decorate(snippet(x.d.loaded[x.first],term),term)+'</span></button>').join(""):'<p>No se encontró esta expresión. Pruebe otra palabra.</p>';
+ document.querySelectorAll("[data-match]").forEach(b=>b.onclick=()=>{state.id=b.dataset.match;state.part=+b.dataset.part;state.photo=0;renderDocs();renderView();el("doctitle").scrollIntoView({behavior:"smooth",block:"start"})});
+ renderView();
+}
+document.querySelectorAll("[data-route]").forEach(b=>b.onclick=()=>{
+ const r=b.dataset.route;state.route=state.route===r?null:r;
+ if(!allIds().includes(state.id)){state.id=allIds()[0];state.photo=0;state.part=0;}
+ renderDocs();renderSearch();renderView();
+});
+el("search").oninput=renderSearch;
+el("clear").onclick=()=>{el("search").value="";renderSearch();el("search").focus()};
+el("all").onclick=()=>{state.route=null;renderDocs();renderSearch()};
+el("prev").onclick=()=>{if(state.photo>0){state.photo--;renderView()}};
+el("next").onclick=()=>{if(state.photo<doc(state.id).images.length-1){state.photo++;renderView()}};
+el("image").onclick=()=>window.open(el("photolink").href,"_blank","noopener");
+const fromHash=decodeURIComponent(location.hash.slice(1));if(doc(fromHash))state.id=fromHash;
+renderDocs();renderView();
+(async()=>{
+ let errors=0;
+ await Promise.all(DOCS.map(async d=>{
+    d.loaded=await Promise.all(d.texts.map(async p=>{try{const r=await fetch(p);if(!r.ok)throw Error("HTTP "+r.status);return textContent(await r.text())}catch(e){errors++;return "[Error de carga: "+e.message+"]";}}));
+ }));
+ state.ready=true;
+ el("loadstatus").textContent=errors?"Algunos textos no se cargaron: "+errors+" error(es).":"8 documentos · 10 textos disponibles. La búsqueda se ejecuta dentro de este navegador.";
+ renderSearch();renderView();
+})();
+</script></body></html>
